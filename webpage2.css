@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    line-height: 1.5em;
+}
+
+#header{
+    background: black;
+    font-family:Arial;
+    height:100px;
+    width:97%;
+    padding:2px;
+
+}
+#footer{
+    clear:both;
+    width:97%;
+    background-color: black ;
+    color:#FFF;
+    font-family:Arial;
+    text-align:center;
+    padding:4px;
+
+}
+
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:#000;
+
+}
+
+li{
+    float:left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child{
+    border-right:none;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align:center;
+    padding:14px  16px;
+    text-decoration:none;
+
+}
+
+li a:hover:not(.active){
+    background-color:#808080;
+
+}
+
+.active{
+    background-color: #0099ff;
+}
+
+#container{
+    width:100%;
+    padding:10px;
+    
+    
+}
+
+.innertext{
+
+   padding:4px; 
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   font-weight: bold;   
+}
+
+.centercolumn, .leftcolumn, .rightcolumn{
+
+   float:left;
+   box-sizing: border-box; 
+   border:3px solid black;
+   padding:0px;
+   margin:10px;
+   margin-right:10px;
+   text-align: right;
+  
+}
+
+p{
+    text-align: center;
+}
+
+
+
+.c{
+    
+    display:inline-block;
+    word-wrap: text;
+    background-color:yellow;
+    border:1px solid black;
+    padding:0px;
+    margin:0px;
+    color:blue;    
+    box-sizing: border-box;
+    background-color:creamblue;
+}
+
+.b{
+    display:inline-block;
+    border:1px solid black;
+    padding:4px;
+    margin:0px;
+    color:blue;
+    
+    box-sizing: border-box;
+    background-color:brown;
+}
+
+.s{
+    display:inline-block;
+    border:1px solid black;
+    padding:4px;
+    margin:0px;
+    color:blue;
+    
+    box-sizing: border-box;
+    background-color:pink;
+}
+
+
+
+
+@media (max-width:1400px) and (min-width:992px){
+
+    .centercolumn, .leftcolumn, .rightcolumn{
+        width:31%;
+        }
+
+}
+
+@media (max-width:991px) and (min-width:568px){
+
+    .leftcolumn, .centercolumn{
+        width:46%;
+    }
+
+    .rightcolumn{
+        float:none;
+        clear:both;
+        width:94.6%;
+        
+    }
+
+}
+
+@media(max-width:567px){
+
+    .leftcolumn, .centercolumn, .rightcolumn{
+        float:none;
+        clear:both;
+        width:97%;
+    }
+}
