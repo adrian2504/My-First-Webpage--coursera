@@ -5,6 +5,7 @@ body{
 }
 
 #header{
+    position: relative;
     background: black;
     font-family:Arial;
     height:100px;
@@ -127,6 +128,19 @@ p{
     background-color:pink;
 }
 
+.b1{ 
+        float:right;
+        padding:10px;
+        position:relative;
+        height:50px;
+        width:100px;
+    }
+    .dp{
+        display:inline-block;
+        display:none;
+        color:blue;
+        
+    }
 
 
 
@@ -135,6 +149,14 @@ p{
     .centercolumn, .leftcolumn, .rightcolumn{
         width:31%;
         }
+
+      .medium{
+          display:none;
+      }  
+
+      .b1{
+          display:none;
+      }
 
 }
 
@@ -145,9 +167,32 @@ p{
     }
 
     .rightcolumn{
+        position: relative;
         float:none;
         clear:both;
         width:94.6%;
+        
+    }
+
+    .medium{
+        padding:10px;
+        position:relative;
+        float:right;
+        height:100px;
+        width:100px;
+    }
+
+    .b1{
+    
+        padding:10px;
+        position:relative;
+        height:50px;
+        width:100px;
+    }
+    .dp{
+        position: relative;
+        display:none;
+        color:blue;
         
     }
 
