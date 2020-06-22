@@ -101,7 +101,7 @@ p{
     word-wrap: text;
     background-color:yellow;
     border:1px solid black;
-    padding:4px;
+    padding:0px;
     margin:0px;
     color:blue;    
     box-sizing: border-box;
@@ -114,6 +114,7 @@ p{
     padding:4px;
     margin:0px;
     color:blue;
+    
     box-sizing: border-box;
     background-color:brown;
 }
@@ -131,8 +132,8 @@ p{
 
 #b1{   
     
-    margin-top:10px;
-    margin-right:8px;
+    margin-top:2%;
+    margin-right:6%;
     float:right;
     padding:10px;
     position:relative;
