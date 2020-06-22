@@ -48,6 +48,7 @@ li a {
     display: block;
     color:white;
     text-align:center;
+    font-size:70%;
     padding:14px  16px;
     text-decoration:none;
 
@@ -132,12 +133,11 @@ p{
 
 #b1{   
     
-    margin-top:2%;
-    margin-right:6%;
+    margin-top:1%;
+    margin-right:4%;
     float:right;
-    padding:10px;
     position:relative;
-    height:100px;
+    height:100%;
     width:100px;
     }
     .dp{
@@ -227,5 +227,10 @@ p{
         float:none;
         clear:both;
         width:97%;
+    }
+
+    #b1{
+        height:80%;
+        width:50px;
     }
 }
