@@ -181,7 +181,9 @@ p{
       #b1{
           display:none;
       }
-
+      #header{
+          font-size:40px;
+      }
 }
 
 @media (max-width:991px) and (min-width:568px){
