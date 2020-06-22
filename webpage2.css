@@ -10,7 +10,9 @@ body{
     font-family:Arial;
     height:100px;
     width:97%;
-    padding:2px;
+    padding:5px;
+    border: 0 auto;
+
 
 }
 #footer{
@@ -128,12 +130,15 @@ p{
     background-color:pink;
 }
 
-.b1{ 
-        float:right;
-        padding:10px;
-        position:relative;
-        height:50px;
-        width:100px;
+#b1{   
+    
+    margin-top:20px;
+    margin-right:10px;
+    float:right;
+    padding:10px;
+    position:relative;
+    height:50px;
+    width:100px;
     }
     .dp{
         display:inline-block;
@@ -142,7 +147,24 @@ p{
         
     }
 
+.lip{
+    
+    border:3px solid black;
+    width:97%;
+    padding:15px;
+    text-align: center;
+}
 
+.a1{  
+    display:block;
+    width:100%;
+    padding:10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration:none;
+    text-align: center;
+    margin:2px auto;
+}
 
 @media (max-width:1400px) and (min-width:992px){
 
@@ -153,8 +175,10 @@ p{
       .medium{
           display:none;
       }  
-
-      .b1{
+      .lip{
+          display:none;
+      }
+      #b1{
           display:none;
       }
 
@@ -182,10 +206,9 @@ p{
         width:100px;
     }
 
-    .b1{
-    
+    #b1{     
         padding:10px;
-        position:relative;
+        float:right;
         height:50px;
         width:100px;
     }
